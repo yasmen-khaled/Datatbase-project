@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: 50px;
+  box-shadow: 0 0 10px rgba(106, 255, 77, 0.182);
+  border-radius: 100px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 1px; /* إضافة مسافة بحجم 10 بيكسل بين حواف الجدول والحدود الخارجية */
+}
+  
+  th, td {
+    text-align: center; /* توسيط النص في الخلايا */
+    padding: 10px; /* تحديد تباعد داخلي للخلايا */
+    border: 1px solid #cccccc50; /* إضافة حدود للخلايا */
+    
+  }
+  
+  th {
+    background-color: #fffdfd; /* تحديد لون خلفية رأس الجدول */
+    font-weight: bold; /* تحديد سماكة الخط في رأس الجدول */
+    border-top: none; /* إزالة حدود الجدول في أعلى رأس الجدول */
+    
+  }
+
+  td {
+    color: rgb(243, 250, 245); /* تحديد لون النص */
+  }
+
+  
+
+
+  
+  
